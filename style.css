@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.title {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo__titulo {
+   font-size: 2.25rem;
+   font-family: var(--fonte-variavel); 
+}
+
+.apresentacao__texto {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.linkum {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.link {
+    justify-content: center;
+    gap: 16px;
+    display: flex;
+    border: 2px solid #22D4FD;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: "Montserrat", sans-serif;
+    padding: 21.5px 0;
+    font-weight: 600;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.link:hover {
+    background-color: #272727;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.cabeçalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabeçalho__menu__link {
+    color: #22D4FD;
+    font-family: 'Montserrar', sans-serif;
+    font-size: 1.5rem;
+    height: 600;
+    text-decoration: none;
+}
+
+.cabeçalho__menu {
+    display: flex;
+    gap: 80px;
+}
+.cabeçalho__menu__link:hover {
+    color: blue;
+}
+@media (max-width: 1200px) {
+  .apresentacao {
+    flex-direction: column-reverse;
+  }
+  
+  .cabeçalho {
+    padding: 4%;
+  }
+  
+  .cabeçalho__menu {
+    justify-content: center;
+  }
+
+  .apresentacao {
+    padding: 5%;
+  }
+
+  .apresentacao__conteudo {
+    width: auto;
+  }
+}
